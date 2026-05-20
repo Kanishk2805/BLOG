@@ -1,4 +1,4 @@
-# ScreenScope
+# ANINerd
 A production-ready full-stack foundation with polished UX, responsive navigation, and deployment configuration.
 
 ## Tech Stack
