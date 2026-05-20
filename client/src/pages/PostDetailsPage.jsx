@@ -46,7 +46,7 @@ function PostDetailsPage() {
   }, [id]);
 
   useEffect(() => {
-    const storageKey = "screenscope_recently_viewed";
+  const storageKey = "aninerd_recently_viewed";
     if (!post?._id) return;
     const recent = JSON.parse(localStorage.getItem(storageKey) || "[]");
     const next = [post, ...recent.filter((entry) => entry._id !== post._id)].slice(0, 8);

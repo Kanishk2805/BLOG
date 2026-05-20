@@ -5,7 +5,7 @@ import { useMemo } from "react";
 function DashboardPage() {
   const { user } = useAuth();
   const recentlyViewed = useMemo(
-    () => JSON.parse(localStorage.getItem("screenscope_recently_viewed") || "[]"),
+  () => JSON.parse(localStorage.getItem("aninerd_recently_viewed") || "[]"),
     []
   );
 

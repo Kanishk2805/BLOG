@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { http } from "../api/http.js";
 
-const AUTH_STORAGE_KEY = "screenscope_auth_token";
+const AUTH_STORAGE_KEY = "aninerd_auth_token";
 const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {

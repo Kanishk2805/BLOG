@@ -43,7 +43,7 @@ function ProfilePage() {
     const doc = new jsPDF();
     const createdAt = new Date().toLocaleString();
     const lines = [
-      "ScreenScope Profile Snapshot",
+  "ANINerd Profile Snapshot",
       `Generated: ${createdAt}`,
       "",
       `Name: ${user?.name || "-"}`,
@@ -64,7 +64,7 @@ function ProfilePage() {
 
     doc.setFontSize(12);
     doc.text(lines, 14, 18);
-    doc.save("screenscope-profile.pdf");
+  doc.save("aninerd-profile.pdf");
   };
 
   return (

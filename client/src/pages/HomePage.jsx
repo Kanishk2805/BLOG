@@ -13,7 +13,7 @@ function HomePage() {
   const [recommendedPosts, setRecommendedPosts] = useState([]);
 
   const recentlyViewed = useMemo(
-    () => JSON.parse(localStorage.getItem("screenscope_recently_viewed") || "[]"),
+  () => JSON.parse(localStorage.getItem("aninerd_recently_viewed") || "[]"),
     []
   );
 
@@ -50,7 +50,7 @@ function HomePage() {
         className="rounded-3xl border border-slate-200 bg-gradient-to-br from-white to-slate-100 p-6 shadow-sm dark:border-slate-800 dark:from-slate-900 dark:to-slate-950"
       >
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-700 dark:text-brand-300">
-          ScreenScope
+          ANINerd
         </p>
         <h2 className="mt-2 text-3xl font-semibold tracking-tight md:text-4xl">
           Discover what to watch next through real community reviews.

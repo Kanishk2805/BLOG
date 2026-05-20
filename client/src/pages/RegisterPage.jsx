@@ -31,7 +31,7 @@ function RegisterPage() {
 
   return (
     <section className="mx-auto max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-      <h2 className="text-2xl font-semibold tracking-tight">Create your ScreenScope account</h2>
+  <h2 className="text-2xl font-semibold tracking-tight">Create your ANINerd account</h2>
       <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
         Start reviewing movies, shows, and anime with your own profile.
       </p>
