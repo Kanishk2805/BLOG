@@ -1,6 +1,5 @@
-# ScreenScope (Phase 1-9 Foundation)
-
-Phases 1 to 9 set up a production-ready full-stack foundation with polished UX, responsive navigation, and deployment configuration.
+# ScreenScope
+A production-ready full-stack foundation with polished UX, responsive navigation, and deployment configuration.
 
 ## Tech Stack
 - Frontend: React + Vite + Tailwind CSS + React Router + Axios
