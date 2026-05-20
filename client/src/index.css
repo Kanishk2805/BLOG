@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accent-cyan .bg-brand-600 {
+  background-color: #0891b2 !important;
+}
+
+.accent-cyan .hover\:bg-brand-700:hover {
+  background-color: #0e7490 !important;
+}
+
+.accent-cyan .text-brand-600,
+.accent-cyan .text-brand-700 {
+  color: #0e7490 !important;
+}
+
+.accent-cyan .text-brand-300 {
+  color: #67e8f9 !important;
+}
+
+.accent-cyan .border-brand-300 {
+  border-color: #67e8f9 !important;
+}
+
+.accent-rose .bg-brand-600 {
+  background-color: #e11d48 !important;
+}
+
+.accent-rose .hover\:bg-brand-700:hover {
+  background-color: #be123c !important;
+}
+
+.accent-rose .text-brand-600,
+.accent-rose .text-brand-700 {
+  color: #be123c !important;
+}
+
+.accent-rose .text-brand-300 {
+  color: #fda4af !important;
+}
+
+.accent-rose .border-brand-300 {
+  border-color: #fda4af !important;
+}
+
+.accent-emerald .bg-brand-600 {
+  background-color: #059669 !important;
+}
+
+.accent-emerald .hover\:bg-brand-700:hover {
+  background-color: #047857 !important;
+}
+
+.accent-emerald .text-brand-600,
+.accent-emerald .text-brand-700 {
+  color: #047857 !important;
+}
+
+.accent-emerald .text-brand-300 {
+  color: #6ee7b7 !important;
+}
+
+.accent-emerald .border-brand-300 {
+  border-color: #6ee7b7 !important;
+}
+
+.accent-amber .bg-brand-600 {
+  background-color: #d97706 !important;
+}
+
+.accent-amber .hover\:bg-brand-700:hover {
+  background-color: #b45309 !important;
+}
+
+.accent-amber .text-brand-600,
+.accent-amber .text-brand-700 {
+  color: #b45309 !important;
+}
+
+.accent-amber .text-brand-300 {
+  color: #fcd34d !important;
+}
+
+.accent-amber .border-brand-300 {
+  border-color: #fcd34d !important;
+}
