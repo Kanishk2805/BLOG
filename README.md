@@ -95,4 +95,4 @@ A production-ready full-stack foundation with polished UX, responsive navigation
 ```
 
 ## Showcase
-https://blog-client-six-tau.vercel.app/browse
+https://blog-client-six-tau.vercel.app
