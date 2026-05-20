@@ -19,7 +19,7 @@ function Navbar() {
       <nav className="mx-auto w-full max-w-6xl px-4">
         <div className="flex h-16 items-center justify-between">
         <Link className="text-xl font-bold tracking-tight text-brand-700 dark:text-brand-300" to="/">
-          ScreenScope
+          ANINerd
         </Link>
 
           <button
